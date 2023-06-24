@@ -1,0 +1,38 @@
+name: AdminEssentials
+version: '${project.version}'
+main: net.philocraft.AdminEssentials
+api-version: 1.19
+authors: [ LittleBigOwl ]
+description: A admin plugin
+website: https://littlebigowl.dev
+
+depend: [BlueMap, EssentialsAPI]
+
+commands:
+  vanish:
+    usage: /<command>
+    description: Allows players to go invisible to others
+    permission: philocraft.admin.vanish
+
+  openinv:
+    usage: /<command> <playerName>
+    description: Allows players to see the inventories of others
+    permission: philocraft.admin.openinv
+
+  openec:
+    usage: /<command> <playerName>
+    description: Allows players to see the enderchest of others
+    permission: philocraft.admin.openec
+
+permissions:
+  philocraft.admin.vanish:
+    description: Allows vanish command
+    default: false
+
+  philocraft.admin.openinv:
+    description: Allows openinv command
+    default: false
+
+  philocraft.admin.openec:
+    description: Allows openec command
+    default: false
