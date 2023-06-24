@@ -6,3 +6,7 @@ A custom admin command plugin
 - `/vanish`
 - `/openinv`
 - `/openec`
+
+## Authors
+
+- [@LittleBigOwl](https://www.github.com/LittleBigOwI)
